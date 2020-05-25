@@ -1,0 +1,31 @@
+[legacy]
+default-show-menubar=false
+menu-accelerator-enabled=true
+schema-version=uint32 3
+theme-variant='dark'
+
+[legacy/profiles:]
+default='9bd4838b-2e5c-4547-9dbb-d192915ad18a'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '9bd4838b-2e5c-4547-9dbb-d192915ad18a']
+
+[legacy/profiles:/:9bd4838b-2e5c-4547-9dbb-d192915ad18a]
+audible-bell=false
+background-color='rgb(255,255,255)'
+default-size-columns=100
+default-size-rows=26
+font='MesloLGS NF 12'
+foreground-color='rgb(0,0,0)'
+scrollback-lines=20000
+use-system-font=false
+use-theme-colors=false
+visible-name='Light'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+default-size-columns=100
+default-size-rows=26
+font='MesloLGS NF 12'
+scrollback-lines=20000
+use-system-font=false
+use-theme-colors=false
+visible-name='Dark'
