@@ -10,7 +10,7 @@
 
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
 
-	"theme": "dark",
+    "theme": "dark",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -30,10 +30,10 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-			"colorScheme": "Tango Light Custom",
-			"fontFace": "MesloLGS NF",
-			"antialiasingMode": "cleartype",
-			"cursorShape": "filledBox"
+            "colorScheme": "Tango Light Custom",
+            "fontFace": "MesloLGS NF",
+            "antialiasingMode": "cleartype",
+            "cursorShape": "filledBox"
         },
         "list":
         [
@@ -69,7 +69,7 @@
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
-		{
+        {
             "name": "Tango Light Custom",
             "foreground": "#000000",
             "background": "#FFFFFF",
@@ -91,7 +91,7 @@
             "brightCyan": "#34E2E2",
             "brightWhite": "#EEEEEC"
         }
-	],
+    ],
 
     // Add custom keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
