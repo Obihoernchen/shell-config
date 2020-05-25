@@ -13,6 +13,9 @@ sed -i 's/^# ENABLE_CORRECTION=.*/ENABLE_CORRECTION="true"/' ~/.zshrc
 # Install powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
+# Wizard options: nerdfont-complete + powerline, small icons, rainbow, unicode,
+# slanted separators, sharp heads, flat tails, 2 lines, dotted, left frame,
+# dark-ornaments, sparse, many icons, concise, transient_prompt, instant_prompt=verbose.
 
 # Install zsh-completions
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
@@ -31,4 +34,4 @@ compaudit | xargs chmod g-w,o-w
 
 # TODO: sudo dnf install powerline vim-powerline tmux-powerline powerline-fonts
 # TODO or vim-airline
-# TODO setup screenrc, vimrc, setup powerline vim etc.
+# TODO setup screenrc, vimrc, setup powerline vim, colorful man pages etc.
