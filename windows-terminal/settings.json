@@ -31,7 +31,7 @@
         {
             // Put settings here that you want to apply to all profiles.
             "colorScheme": "Tango Light Custom",
-            "fontFace": "MesloLGS NF",
+            "fontFace": "SauceCodePro NF",
             "antialiasingMode": "cleartype",
             "cursorShape": "filledBox"
         },

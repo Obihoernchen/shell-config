@@ -2,7 +2,9 @@
 #
 # Prerequisites:
 #   - Install zsh
-#   - Configure terminal to use MesloLGS NF font: https://github.com/romkatv/powerlevel10k#fonts
+#   - Install a mono spaced nerd font for all icons:
+#     https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts
+#   - Configure terminal to use the nerd font
 
 
 # Install Oh My ZSH
