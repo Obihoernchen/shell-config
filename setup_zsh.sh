@@ -8,6 +8,8 @@
 
 
 # Install Oh My ZSH
+echo "Installing zsh..."
+echo "Once installed exit with CTRL+D"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # Enable command auto correction
 sed -i 's/^# ENABLE_CORRECTION=.*/ENABLE_CORRECTION="true"/' ~/.zshrc
@@ -35,7 +37,7 @@ git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins ${ZSH_CUSTOM:-
 sed -i 's/^plugins=.*/plugins=(git zsh-completions zsh-syntax-highlighting zsh-autosuggestions autoupdate)\nautoload -U compinit \&\& compinit/' ~/.zshrc
 
 # Fix all permissions
-compaudit | xargs chmod g-w,o-w
+echo "If using WSL, start your zsh and run: compaudit | xargs chmod g-w,o-w"
 
 # TODO: sudo dnf install powerline vim-powerline tmux-powerline powerline-fonts
 # TODO or vim-airline
