@@ -1,0 +1,28 @@
+{
+    "window.zoomLevel": 0,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.formatOnSave": true,
+    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.default.cStandard": "c11",
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.standard": [
+        "c11",
+        "c++11"
+    ],
+    "c-cpp-flylint.clang.pedantic": true,
+    "c-cpp-flylint.clang.warnings": [
+        "all",
+        "extra",
+        "everything",
+        "no-pragma-once-outside-header",
+        "no-c++98-compat",
+        "no-c++98-compat-pedantic"
+    ],
+    "C_Cpp.clang_format_sortIncludes": true,
+    "c-cpp-flylint.cppcheck.inconclusive": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "scm.alwaysShowProviders": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.renderWhitespace": "all",
+}
