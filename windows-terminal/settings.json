@@ -73,6 +73,7 @@
             "name": "Tango Light Custom",
             "foreground": "#000000",
             "background": "#FFFFFF",
+            "selectionBackground": "#000000",
             "cursorColor": "#000000",
             "black": "#000000",
             "red": "#CC0000",
