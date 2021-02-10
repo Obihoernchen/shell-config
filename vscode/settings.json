@@ -22,7 +22,15 @@
     "C_Cpp.clang_format_sortIncludes": true,
     "c-cpp-flylint.cppcheck.inconclusive": true,
     "latex-workshop.view.pdf.viewer": "tab",
-    "scm.alwaysShowProviders": true,
     "workbench.colorTheme": "Visual Studio Light",
     "editor.renderWhitespace": "all",
+    "editor.wordWrapColumn": 120,
+    "python.formatting.autopep8Args": [
+        "--max-line-length 119"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "yaml.format.printWidth": 120,
+    "yaml.format.enable": false,
+    "workbench.editorAssociations": [],
+    "editor.fontLigatures": null,
 }
