@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 0,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "editor.formatOnSave": true,
@@ -29,7 +28,8 @@
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "yaml.format.printWidth": 120,
-    "yaml.format.enable": false,
     "workbench.editorAssociations": [],
     "workbench.colorTheme": "Default Light+",
+    "python.languageServer": "Pylance",
+    "ansible.validate.executablePath": "/usr/bin/ansible-lint",
 }
