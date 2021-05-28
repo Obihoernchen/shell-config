@@ -28,8 +28,21 @@
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "yaml.format.printWidth": 120,
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "workbench.colorTheme": "Default Light+",
     "python.languageServer": "Pylance",
     "ansible.validate.executablePath": "/usr/bin/ansible-lint",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "yaml.customTags": [
+        "!encrypted/pkcs1-oaep scalar",
+        "!vault scalar"
+    ],
+    "redhat.telemetry.enabled": false
 }
