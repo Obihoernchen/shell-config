@@ -39,6 +39,7 @@ sed -i 's/^plugins=.*/plugins=(git zsh-completions zsh-syntax-highlighting zsh-a
 # Fix all permissions
 echo "If using WSL, start your zsh and run: compaudit | xargs chmod g-w,o-w"
 
-# TODO: sudo dnf install powerline vim-powerline tmux-powerline powerline-fonts
-# TODO or vim-airline
+# Install vim-airline
+sudo dnf install vim-airline
+
 # TODO setup screenrc, vimrc, setup powerline vim, colorful man pages etc.
