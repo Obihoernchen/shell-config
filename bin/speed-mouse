@@ -1,2 +1,2 @@
 #!/bin/bash
-gsettings set org.gnome.desktop.peripherals.mouse speed 0.3
+gsettings set org.gnome.desktop.peripherals.mouse speed 0.0
