@@ -4,8 +4,9 @@ sudo dnf update
 
 # Native Wayland support
 files=(/usr/share/applications/code.desktop /usr/share/applications/code-url-handler.desktop /usr/share/applications/google-chrome.desktop)
-for i in $files; do
+for i in ${files[@]}; do
 	if ! grep -q '\-\-enable-features=UseOzonePlatform \-\-ozone-platform=wayland' "$i"; then
+		echo "Patching wayland support: $i"
 		sudo sed -i -E 's/^Exec=\S+/& --enable-features=UseOzonePlatform --ozone-platform=wayland/' "$i"
 	fi
 done
