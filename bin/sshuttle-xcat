@@ -1,1 +1,1 @@
-sshuttle --method nft --disable-ipv6 -H -N -r "$1"
+sshuttle --latency-buffer-size 131072 --method nft --disable-ipv6 -H -N -r "$1"
