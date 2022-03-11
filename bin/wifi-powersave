@@ -1,0 +1,5 @@
+
+# Disable WIFI powersave
+nmcli con mod "BKA-Berlin" 802-11-wireless.powersave 2
+nmcli con mod "MegwareClus" 802-11-wireless.powersave 2
+nmcli con mod "Amber Hotel Chemnitz" 802-11-wireless.powersave 2
