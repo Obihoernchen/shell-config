@@ -40,6 +40,7 @@
         {
             "antialiasingMode": "grayscale",
             "bellStyle": "taskbar",
+            "closeOnExit": "always",
             "colorScheme": "Tango Light Custom",
             "cursorShape": "filledBox",
             "font": 
