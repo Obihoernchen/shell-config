@@ -42,7 +42,7 @@
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Tango Light Custom",
-            "cursorShape": "filledBox",
+            "cursorShape": "emptyBox",
             "font": 
             {
                 "face": "SauceCodePro NF"
