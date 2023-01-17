@@ -1,9 +1,11 @@
 #!/bin/bash
 
-sudo dnf update
+sudo dnf update --refresh
 
 # Native Wayland support
-files=(/usr/share/applications/code.desktop /usr/share/applications/code-url-handler.desktop /usr/share/applications/google-chrome.desktop)
+#files=(/usr/share/applications/code.desktop /usr/share/applications/code-url-handler.desktop /usr/share/applications/google-chrome.desktop)
+# Chrome now via chrome://flags/#ozone-platform-hint Auto
+files=(/usr/share/applications/code.desktop /usr/share/applications/code-url-handler.desktop)
 for i in ${files[@]}; do
 	if ! grep -q '\-\-enable-features=UseOzonePlatform \-\-ozone-platform=wayland' "$i"; then
 		echo "Patching wayland support: $i"
