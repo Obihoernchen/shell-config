@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -31,84 +32,65 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "language": "en-US",
     "multiLinePasteWarning": false,
     "profiles": 
     {
         "defaults": 
         {
-            "antialiasingMode": "cleartype",
+            "antialiasingMode": "grayscale",
+            "bellStyle": "taskbar",
+            "closeOnExit": "always",
             "colorScheme": "Tango Light Custom",
-            "cursorShape": "filledBox",
-            "fontFace": "SauceCodePro NF"
+            "cursorShape": "emptyBox",
+            "font": 
+            {
+                "face": "SauceCodePro NF"
+            },
+            "historySize": 20000,
+            "intenseTextStyle": "none"
         },
         "list": 
         [
             {
-                "antialiasingMode": "grayscale",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
-                "commandline": "powershell.exe",
-                "fontFace": "SauceCodePro NF",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "historySize": 20000,
                 "name": "Windows PowerShell"
             },
             {
-                "antialiasingMode": "grayscale",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "historySize": 20000,
                 "name": "Eingabeaufforderung"
             },
             {
-                "antialiasingMode": "grayscale",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
-                "colorScheme": "Tango Light Custom",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "historySize": 20000,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "antialiasingMode": "grayscale",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
-                "historySize": 20000,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "antialiasingMode": "grayscale",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
-                "historySize": 20000,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{3ebb16a3-bc76-59c0-965e-41fe8e4d43df}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{b9234edc-a01d-5ee3-859d-193adf3edbc0}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -345,5 +327,7 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "dark"
+    "theme": "dark",
+    "trimBlockSelection": false,
+    "useAcrylicInTabRow": true
 }
